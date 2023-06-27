@@ -15,7 +15,7 @@ body {
     background: #18181b;
     color: #f4f4f5;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight: '100';
+    font-weight: 100;
 }
 
 h1,h2,h3,h4 {
@@ -23,8 +23,11 @@ h1,h2,h3,h4 {
     margin-bottom: 0.5em;
 }
 
+h1 {
+    font-size: calc(2.2rem + 4vw);
+}
 p {
-    font-size: smaller;
+    font-size: 1.2rem;
 }
 
 a {
@@ -37,6 +40,6 @@ a:hover, a:active, a:visited {
 
 footer {
     position: fixed;
-    bottom: 2 rem;
+    bottom: 2rem;
     color: #d4d4d8;
 }
